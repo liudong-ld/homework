@@ -1,5 +1,8 @@
 #include<stdio.h>
 int main(){
-    printf("Hello World!\n");
+    char buf[100];
+    printf("请输入：");
+    scanf("%s",buf);
+    printf("输出：%s\n",buf);
     return 0;
 }
