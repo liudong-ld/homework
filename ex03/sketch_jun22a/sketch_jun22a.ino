@@ -1,4 +1,4 @@
-#define LED_PIN 13
+#define LED_PIN 2
 unsigned long prevTime = 0;
 const unsigned long shortLight = 200;
 const unsigned long longLight = 600;
